@@ -55,7 +55,7 @@ a. Click create and select Azure virtual machine<br />
 b. Select your existing Resource group "RG-osTicket"<br />
 c. Configure the values as shown in the screenshot below:<br />
 d.) Name your virtual machine. I'm using "vm-osticket"<br />
-e.) Select your region. use the same region as your resource group<br />
+e.) Select your region. Preferrably the same as your resource group<br />
 f.) Click review + create.<br />
 
 ![creating vm](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/916cfb78-f33f-48c5-93d6-be4f5ab09b39)
