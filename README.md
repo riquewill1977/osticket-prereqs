@@ -25,9 +25,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 Let's begin with creating a resource group in microsoft azure. This will act as a logical container that will hold related azure resources like network security groups and virtual networks.
 
 Create a resource group via the web portal:
-a.) Navigate to service <b>Resource groups<b>.
-b.) Click Add to create a new resource group.
-c.) Configure the values in this screen, as in the example figure below:
+i. Navigate to service <b>Resource groups<b>.
+ii. Click Add to create a new resource group.
+iii. Configure the values in this screen, as in the example figure below:
 Figure 1. Creating a Resource Group
 ![creating resource group](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/410f6b8c-b985-4b8b-b8de-593fa24740f1)
 d.) Name your Resource Group. I'm using "RG-osTicket"
