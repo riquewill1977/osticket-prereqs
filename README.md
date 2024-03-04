@@ -44,18 +44,24 @@ Creating a Resource Group<br />
 
 
 
-<p>Next we'll create a windows 10 virtual machine by navigating back to the azure portal or simply typing "virtual machine" as shown in the image below</p>
+<p>Next we'll create a windows 10 virtual machine by navigating back to the azure portal or simply typing "virtual machine" in azure's seach box at the very top of the screen as shown in the image below</p>
 
 ![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/f0d20a8b-5296-49a7-8f39-ebc56cc13e69)
 
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+<p>Create a win10 virtual machine</p>
+
+a. Click create and select Azure virtual machine<br />
+b. Select your existing Resource group "RG-osTicket
+c. Configure the values as shown in the screenshot below:<br />
+d.) Name your virtual machine. I'm using "vm-osticket"<br />
+e.) Select your region. use the same region as your resource group<br />
+f.) Click review + create.<br />
+
+![creating vm](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/916cfb78-f33f-48c5-93d6-be4f5ab09b39)
+![creating vm 2](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/95acc8cc-1e3d-4302-8797-fe651feb22c6)
+
+
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
