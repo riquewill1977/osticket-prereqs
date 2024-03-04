@@ -22,8 +22,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - osTicket
 
 <h2>Installation Steps</h2>
-Let's begin with creating a resource group in microsoft azure. This will act as a logical container that will hold related azure resources like network security groups and virtual networks.\
-\
+Let's begin with creating a resource group in microsoft azure. This will act as a logical container that will hold related azure resources like network security groups and virtual networks.\  
+
 Create a resource group via the web portal\  
 
 a. Navigate to service <b>Resource groups</b>.<br />
