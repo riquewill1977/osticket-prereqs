@@ -44,7 +44,7 @@ Creating a Resource Group<br />
 
 
 
-<p>Next we'll create a windows 10 virtual machine by navigating back to the azure portal or simply typing "virtual machine" in azure's seach box at the very top of the screen as shown in the image below</p>
+<p>Note: you can navigate to any resource by using azure's seach box at the very top of the screen as shown in the image below</p>
 
 ![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/f0d20a8b-5296-49a7-8f39-ebc56cc13e69)
 
