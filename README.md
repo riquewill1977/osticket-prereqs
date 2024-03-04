@@ -37,18 +37,17 @@ f.) Click review + create.<br />
 
 
 Creating a Resource Group<br />
-<p>
 ![creating resource group](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/410f6b8c-b985-4b8b-b8de-593fa24740f1)
-</p>
+
 
 
 
 
 
 <p>Next we'll create a windows 10 virtual machine by navigating back to the azure portal or simply typing "virtual machine" as shown in the image below</p>
-<p>
+
 ![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/f0d20a8b-5296-49a7-8f39-ebc56cc13e69)
-</p>
+
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
