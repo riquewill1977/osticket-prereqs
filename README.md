@@ -52,7 +52,7 @@ Creating a Resource Group<br />
 <p>Creating the Windows 10 virtual machine</p>
 
 a. Click create and select Azure virtual machine<br />
-b. Select your existing Resource group "RG-osTicket"
+b. Select your existing Resource group "RG-osTicket"<br />
 c. Configure the values as shown in the screenshot below:<br />
 d.) Name your virtual machine. I'm using "vm-osticket"<br />
 e.) Select your region. use the same region as your resource group<br />
