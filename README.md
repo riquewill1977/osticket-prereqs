@@ -30,13 +30,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 a. Navigate to service <b>Resource groups</b>.<br />
 b. Click Add to create a new resource group.<br />
-c. Configure the values in this screen, as in the example figure below:<br />
+c. Configure the values as shown in the screenshot below:<br />
 d.) Name your Resource Group. I'm using "RG-osTicket"<br />
 e.) Select your region. I'm using US West US 3<br />
 f.) Click review + create.<br />
 
 
-Figure 1. Creating a Resource Group<br />
+Creating a Resource Group<br />
 ![creating resource group](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/410f6b8c-b985-4b8b-b8de-593fa24740f1)
 
 
