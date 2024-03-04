@@ -49,10 +49,10 @@ Creating a Resource Group<br />
 ![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/f0d20a8b-5296-49a7-8f39-ebc56cc13e69)
 
 
-<p>Create a win10 virtual machine</p>
+<p>Creating the Windows 10 virtual machine</p>
 
 a. Click create and select Azure virtual machine<br />
-b. Select your existing Resource group "RG-osTicket
+b. Select your existing Resource group "RG-osTicket"
 c. Configure the values as shown in the screenshot below:<br />
 d.) Name your virtual machine. I'm using "vm-osticket"<br />
 e.) Select your region. use the same region as your resource group<br />
