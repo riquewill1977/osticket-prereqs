@@ -25,7 +25,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 Let's begin with creating a resource group in microsoft azure. This will act as a logical container that will hold related azure resources like network security groups and virtual networks.<br />
 
 Create a resource group via the web portal:<br />
-a. Navigate to service <b>Resource groups<b>.<br />
+a. Navigate to service <b>Resource groups<b/>.<br />
 b. Click Add to create a new resource group.<br />
 c. Configure the values in this screen, as in the example figure below:<br />
 
