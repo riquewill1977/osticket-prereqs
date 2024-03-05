@@ -98,10 +98,10 @@ Select Internet Information Services (IIS)
 Expand the following folder to turn on CGI:
 
 
-a.) Internet Information Services
-b.) World Wide Web Services
-c.) Application Development Features
-d.) Check the box for "CGI"
+a.) Internet Information Services<br />
+b.) World Wide Web Services<br />
+c.) Application Development Features<br />
+d.) Check the box for "CGI"<br />
 ![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/a859db42-33c8-4039-9621-977c4504c394)
 
 
