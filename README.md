@@ -130,7 +130,7 @@ Download and install the following files:
 
   ![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/12fde96d-9549-4a82-acaf-8be15b43c092)
 
-  Double click to open "PHP Manager. Click on "Register new PHP version" and navigate to the PHP we created previously and select the php-cgi.ext file
+  Double click to open "PHP Manager. Click on "Register new PHP version" and navigate to the PHP folder we created previously and select the php-cgi.ext file
 
   ![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/13fb0bda-251c-4b5d-8edb-89dc3a271632)
 
@@ -144,20 +144,23 @@ Download and install the following files:
 
   ![osTicket_upload into root](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/67c66ff2-b30e-4789-b1e7-a79ec10465a7)
 
+  Rename the "upload" folder to "osTicket"
+
+  ![Screenshot 2024-03-05 154226](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/9c619353-3d8a-40e4-8337-b83939d203cb)
+
+  Go back into IIS and restart the server. Then from the navigation pane click on "osTicket" by going to Sites > Default Web Site > osTicket.
+
+  Once selected click on "Browse *:80 (http).
+
+  ![Screenshot 2024-03-05 155908](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/91518706-bb2f-41be-b0dc-4ecb57cbe4a0)
+
+  You should now be able to see the osTicket Installer page as shown below.
+
+  ![Screenshot 2024-03-05 163653](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/bf1baffb-ea83-4c7b-a2e9-fab4cfbf90b8)
+
   
 
-
-
   
-
-
-  
-
-
-
-
-
-
 
 
 
