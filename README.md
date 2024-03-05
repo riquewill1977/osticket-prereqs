@@ -92,5 +92,18 @@ Select remote desktop and paste the IP address and connect. Select the show opti
 Under Programs and Features, click "Turn Windows features on or off" </p>
 ![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/1205f7e1-bad7-4baf-b467-a5de38f48232)
 
+Select Internet Information Services (IIS)
+![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/03d66df1-05a4-4451-95eb-e2091d521ca8)
+
+Expand the following folder to turn on CGI:
+
+
+a.) Internet Information Services
+b.) World Wide Web Services
+c.) Application Development Features
+d.) Check the box for "CGI"
+![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/a859db42-33c8-4039-9621-977c4504c394)
+
+
 
 
