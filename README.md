@@ -91,9 +91,11 @@ Select remote desktop and paste the IP address and connect. Select the show opti
 
   
 <p>Under Programs and Features, click "Turn Windows features on or off" </p>
+
 ![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/1205f7e1-bad7-4baf-b467-a5de38f48232)
 
 <p>Select Internet Information Services (IIS)</p>
+
 ![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/03d66df1-05a4-4451-95eb-e2091d521ca8)
 
 Expand the following folder to turn on CGI:
@@ -103,12 +105,15 @@ Expand the following folder to turn on CGI:
 - World Wide Web Services<br />
 - Application Development Features<br />
 - Check the box for "CGI"<br />
+
 ![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/a859db42-33c8-4039-9621-977c4504c394)
 
 Collaps "Application Development Features", then expand "Common HTTP Features" and be sure all boxes are checked. Click "OK" once you've checked all boxes to begin installation.
+
 ![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/06f58234-1174-4a05-a372-88d3110ee8cd)
 
 Once installed, run a quick test by entering your loopback IP into a browser 127.0.0.1. You should see a webpage that looks like the image below.
+
 ![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/1cd52bee-2a61-4e76-900a-e4e5dabae521)
 
 Now let's download the <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">installation files</a> for osTicket.
