@@ -87,13 +87,13 @@ Select remote desktop and paste the IP address and connect. Select the show opti
 ![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/bbce75b8-3736-484e-a8d9-34a460afafb8)
 ![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/bcdbfec8-a4aa-4a25-9b88-f8893b24d49a)
 
-<p>Now that we're logged in, go to the windows search box in the vm and type "control" then click on control panel and click programs.
+<p>Now that we're logged in, go to the windows search box in the vm and type "control" then click on control panel and click programs.</p>
 
   
-Under Programs and Features, click "Turn Windows features on or off" </p>
+<p>Under Programs and Features, click "Turn Windows features on or off" </p>
 ![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/1205f7e1-bad7-4baf-b467-a5de38f48232)
 
-Select Internet Information Services (IIS)
+<p>Select Internet Information Services (IIS)</p>
 ![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/03d66df1-05a4-4451-95eb-e2091d521ca8)
 
 Expand the following folder to turn on CGI:
