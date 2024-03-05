@@ -79,9 +79,12 @@ You can also achieve this by clicking on the virtual machine name in which the p
 
 
 
-
-</p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+Copy the VM's public IP address and past it into remote desktop. Use windows search box and type "remote desktop" 
+Select remote desktop and paste the IP address and connect. Select the show options section to use your username and password you created in azure for the vm.</p>
+
+![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/bbce75b8-3736-484e-a8d9-34a460afafb8)
+![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/bcdbfec8-a4aa-4a25-9b88-f8893b24d49a)
+
+
+
