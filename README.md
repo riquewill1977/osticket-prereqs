@@ -116,7 +116,43 @@ Once installed, run a quick test by entering your loopback IP into a browser 127
 
 ![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/1cd52bee-2a61-4e76-900a-e4e5dabae521)
 
-Now let's download the <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">installation files</a> for osTicket.
+Now let's download the <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">installation files</a> needed for osTicket.
+
+Download and install the following files:
+
+- PHPManagerForIIS_V1.5.0
+- rewrite_amd64_en-US
+- php-7.3.8-nts-Win32-VC15-x86 (create a PHP folder and save it here c:\PHP. Then right click the zip file and extract the contents into the PHP folder)
+- VC_redist.x86
+- mysql-5.5.62-win32 (when installing choose the "Typical" install and make sure the box is checked for "Launch the MySQL Instance..." and click finish. This will launch the configuration wizard. Select "Standard Configuration" and setup your password. Make sure you save those credentials somewhere safe.)
+
+  Next we'll open IIS and run as a Admin
+
+  ![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/12fde96d-9549-4a82-acaf-8be15b43c092)
+
+  Double click to open "PHP Manager. Click on "Register new PHP version" and navigate to the PHP we created previously and select the php-cgi.ext file
+
+  ![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/13fb0bda-251c-4b5d-8edb-89dc3a271632)
+
+  Be sure to restart the server after updating.
+
+  ![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/7c2d35aa-f7c5-4cd5-a4d2-21b548da5571)
+
+  Download osTicket from the <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">installation files</a>
+
+  Once downloaded, extract and copy the “upload” folder from the osTicket-v1.15.8 zip file to c:\inetpub\wwwroot
+
+  ![osTicket_upload into root](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/67c66ff2-b30e-4789-b1e7-a79ec10465a7)
+
+  
+
+
+
+  
+
+
+  
+
 
 
 
