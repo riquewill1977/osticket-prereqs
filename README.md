@@ -11,6 +11,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Internet Information Services (IIS)
+- Heidi SQL
 
 <h2>Operating Systems Used </h2>
 
@@ -28,12 +29,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>Create a resource group via the web portal</p>
 
 
-a. Navigate to service <b>Resource groups</b>.<br />
-b. Click Add to create a new resource group.<br />
-c. Configure the values as shown in the screenshot below:<br />
-d.) Name your Resource Group. I'm using "RG-osTicket"<br />
-e.) Select your region. I'm using US West US 3<br />
-f.) Click review + create.<br />
+- Navigate to service <b>Resource groups</b>.<br />
+- Click Add to create a new resource group.<br />
+- Configure the values as shown in the screenshot below:<br />
+- Name your Resource Group. I'm using "RG-osTicket"<br />
+- Select your region. I'm using US West US 3<br />
+- Click review + create.<br />
 
 
 Creating a Resource Group<br />
@@ -51,15 +52,15 @@ Creating a Resource Group<br />
 
 <p>Create Windows 10 virtual machine</p>
 
-a. Click create and select Azure virtual machine<br />
-b. Select your existing Resource group "RG-osTicket"<br />
-c. Configure the values as shown in the screenshot below:<br />
-d.) Name your virtual machine. I'm using "vm-osticket"<br />
-e.) Select your region. Preferrably the same as your resource group<br />
-f.) Select size suitable enough for this task. I'm using 4 vcpus, 16GB mem.
-g.) Enter your username and password
-h.) Inbound ports should be set to allow selected ports and select RDP (remote desktop)
-i.) Check the I confirm I have an eligible windows 10/11 license box and click Next<br />
+- Click create and select Azure virtual machine<br />
+- Select your existing Resource group "RG-osTicket"<br />
+- Configure the values as shown in the screenshot below:<br />
+- Name your virtual machine. I'm using "vm-osticket"<br />
+- Select your region. Preferrably the same as your resource group<br />
+- Select size suitable enough for this task. I'm using 4 vcpus, 16GB mem.
+- Enter your username and password
+- Inbound ports should be set to allow selected ports and select RDP (remote desktop)
+- Check the I confirm I have an eligible windows 10/11 license box and click Next<br />
 
 ![creating vm](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/916cfb78-f33f-48c5-93d6-be4f5ab09b39)
 ![creating vm 2](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/95acc8cc-1e3d-4302-8797-fe651feb22c6)
@@ -98,11 +99,23 @@ Select Internet Information Services (IIS)
 Expand the following folder to turn on CGI:
 
 
-a.) Internet Information Services<br />
-b.) World Wide Web Services<br />
-c.) Application Development Features<br />
-d.) Check the box for "CGI"<br />
+- Internet Information Services<br />
+- World Wide Web Services<br />
+- Application Development Features<br />
+- Check the box for "CGI"<br />
 ![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/a859db42-33c8-4039-9621-977c4504c394)
+
+Collaps "Application Development Features", then expand "Common HTTP Features" and be sure all boxes are checked. Click "OK" once you've checked all boxes to begin installation.
+![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/06f58234-1174-4a05-a372-88d3110ee8cd)
+
+Once installed, run a quick test by entering your loopback IP into a browser 127.0.0.1. You should see a webpage that looks like the image below.
+![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/1cd52bee-2a61-4e76-900a-e4e5dabae521)
+
+Now let's download the <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">installation files</a> for osTicket.
+
+
+
+
 
 
 
