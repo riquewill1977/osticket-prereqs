@@ -126,41 +126,73 @@ Download and install the following files:
 - VC_redist.x86
 - mysql-5.5.62-win32 (when installing choose the "Typical" install and make sure the box is checked for "Launch the MySQL Instance..." and click finish. This will launch the configuration wizard. Select "Standard Configuration" and setup your password. Make sure you save those credentials somewhere safe.)
 
-  Next we'll open IIS and run as a Admin
+Next we'll open IIS and run as a Admin
 
-  ![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/12fde96d-9549-4a82-acaf-8be15b43c092)
+![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/12fde96d-9549-4a82-acaf-8be15b43c092)
 
-  Double click to open "PHP Manager. Click on "Register new PHP version" and navigate to the PHP folder we created previously and select the php-cgi.ext file
+Double click to open "PHP Manager. Click on "Register new PHP version" and navigate to the PHP folder we created previously and select the php-cgi.ext file
 
-  ![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/13fb0bda-251c-4b5d-8edb-89dc3a271632)
+![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/13fb0bda-251c-4b5d-8edb-89dc3a271632)
 
-  Be sure to restart the server after updating.
+Be sure to restart the server after updating.
 
-  ![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/7c2d35aa-f7c5-4cd5-a4d2-21b548da5571)
+![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/7c2d35aa-f7c5-4cd5-a4d2-21b548da5571)
 
-  Download osTicket from the <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">installation files</a>
+Download osTicket from the <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">installation files</a>
 
-  Once downloaded, extract and copy the “upload” folder from the osTicket-v1.15.8 zip file to c:\inetpub\wwwroot
+Once downloaded, extract and copy the “upload” folder from the osTicket-v1.15.8 zip file to c:\inetpub\wwwroot
 
-  ![osTicket_upload into root](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/67c66ff2-b30e-4789-b1e7-a79ec10465a7)
+![osTicket_upload into root](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/67c66ff2-b30e-4789-b1e7-a79ec10465a7)
 
-  Rename the "upload" folder to "osTicket"
+Rename the "upload" folder to "osTicket"
 
-  ![Screenshot 2024-03-05 154226](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/9c619353-3d8a-40e4-8337-b83939d203cb)
+![Screenshot 2024-03-05 154226](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/9c619353-3d8a-40e4-8337-b83939d203cb)
 
-  Go back into IIS and restart the server. Then from the navigation pane click on "osTicket" by going to Sites > Default Web Site > osTicket.
+Go back into IIS and restart the server. Then from the navigation pane click on "osTicket" by going to Sites > Default Web Site > osTicket.
 
-  Once selected click on "Browse *:80 (http).
+Once selected click on "Browse *:80 (http).
 
-  ![Screenshot 2024-03-05 155908](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/91518706-bb2f-41be-b0dc-4ecb57cbe4a0)
+![Screenshot 2024-03-05 155908](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/91518706-bb2f-41be-b0dc-4ecb57cbe4a0)
 
-  You should now be able to see the osTicket Installer page as shown below.
+You should now be able to see the osTicket Installer page as shown below. 
 
-  ![Screenshot 2024-03-05 163653](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/bf1baffb-ea83-4c7b-a2e9-fab4cfbf90b8)
+![Screenshot 2024-03-05 163653](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/bf1baffb-ea83-4c7b-a2e9-fab4cfbf90b8)
 
+There are several extensions not installed, so we'll need to go back IIS and under the osTicket folder double click "PHP Manager".
+
+Under PHP Extensions click "Enable or disable an extension.
+
+Select the following extensions and enable them.
+
+- php_imap.dll
+- php_intl.dll
+- php_opcache.dll
   
 
+![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/c05558ed-d2e0-47bd-865d-a7b56a52b6e6)
+
+Go back to your browser with the osTicket Installer and refresh the page. Some of the extensions should now have a green check as shown below.
+
+![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/73269c30-007b-45f2-a0c9-9ed8813ef08e)
+
+We now need to rename the ost-sampleconfig.php to ost-config.php removing "sample" from the name.
+
+Navigate to C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php and rename the file.
+
+![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/3af9820a-2d78-403e-adaa-1d84961d68c7)
+
+Assign Permissions to ost-config.php:
+
+- right click and go to properties
+- click the security tab
+- click on Advanced
+- Disable inheritance
+- remove all inherited permissions from this object
+- click add
+- click select a principal and type the word "Everyone" then click Check Names
+
+
+![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/58fb27f7-b2c2-4f29-a981-4148640c38a3)
+
   
-
-
 
