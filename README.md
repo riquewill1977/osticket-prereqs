@@ -250,4 +250,6 @@ If done correctly you can now log in via the <a href="http://localhost/osTicket/
 - <a href="http://localhost/osTicket/scp/login.php">Admins</a>
 - <a href="http://localhost/osTicket/">End Users</a>
 
+Next we'll move onto the <a href="https://github.com/riquewill1977/osticket-post-install">Post-Installation Configurations</a>
+
 
