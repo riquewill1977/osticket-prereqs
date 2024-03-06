@@ -245,7 +245,7 @@ Clean up:
 
 Congratulations!!! 
 
-If done correctly you can now log in for Admins using this link 
+If done correctly you can now log in via the <a href="http://localhost/osTicket/scp/login.php">Admin</a> link.
 
 - <a href="http://localhost/osTicket/scp/login.php">Admins</a>
 - <a href="http://localhost/osTicket/">End Users</a>
