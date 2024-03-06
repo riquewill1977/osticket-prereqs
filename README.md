@@ -177,6 +177,8 @@ Go back to your browser with the osTicket Installer and refresh the page. Some o
 
 We now need to rename the ost-sampleconfig.php to ost-config.php removing "sample" from the name.
 
+We will undertake this action to ensure universal access and prevent conflicts arising from user manipulation of the file.
+
 Navigate to C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php and rename the file.
 
 ![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/3af9820a-2d78-403e-adaa-1d84961d68c7)
@@ -189,10 +191,63 @@ Assign Permissions to ost-config.php:
 - Disable inheritance
 - remove all inherited permissions from this object
 - click add
-- click select a principal and type the word "Everyone" then click Check Names
+- click "select a principal" and type the word "Everyone" then click Check Names and "OK"
 
 
 ![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/58fb27f7-b2c2-4f29-a981-4148640c38a3)
 
-  
+Next check the "Full control" box and click "OK".
+
+![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/6a40e4fa-679a-438f-a370-7f8566aa9056)
+
+Click Apply, then OK and OK again to close out.
+![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/8723316a-8ad5-4bbd-8624-f9383066272c)
+
+![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/3dea0c5c-af18-4689-bb68-dee6b005f8b0)
+
+We'll now download Heidi SQL from the <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">installation files</a>
+
+Heidi SQL is a popular open-source database management tool with a user-friendly interface primarily used for interacting with and managing various database systems. 
+
+In our case we'll use it to manage MySQL. Install Heidi SQL and click finish and make sure "Launch HeidiSQL" is checked.
+
+![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/66400a2d-eb4b-4b13-9767-9d3d87ff6d8f)
+
+Before we can do anything we need to go back to the browser with osTicket Installer and click continue. 
+
+Enter any credentials you like, just be sure to save the information for later use.
+
+![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/10fc288f-d187-4ac0-81b4-5767c1433caa)
+
+
+In order to fill out the last section "Database Settings" we need to go back to Heidi SQL and click on "New" then enter the password we created in MySQL and click "Open"
+
+![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/244bd68f-00da-458d-9801-6206332b17a1)
+
+Right click Unnamed, then Create new > Database
+
+Name it "osTicket" then click "OK".
+
+![Screenshot 2024-03-05 190432](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/007036a6-9dd9-4f5c-8bf9-08f900596b79)
+
+Go back to the browser with osTicket Installer and enter the credentials for "Database Settings" and click "Install Now.
+
+![image](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/b0681746-dbef-4b8d-b198-05d53f86e042)
+
+If done correctly, you should see this on your screen.
+
+![Screenshot 2024-03-05 191526](https://github.com/riquewill1977/osticket-prereqs/assets/139101776/3db47f5c-c656-4c96-97f2-3d18eec4fb67)
+
+Clean up:
+
+- Delete the "setup" folder located in C:\inetpub\wwwroot\osTicket
+- Set the permissions back to read only for "ost-config.php" by going to properties, then the security tab, click on Advanced, select "Everyone" and click on edit and uncheck Full control, Modify and Write, then apply.
+
+Congratulations!!! 
+
+If done correctly you can now log in for Admins using this link 
+
+<a href="http://localhost/osTicket/scp/login.php">Admins</a>
+<a href="http://localhost/osTicket/">End Users</a>
+
 
