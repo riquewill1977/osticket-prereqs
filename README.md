@@ -241,13 +241,13 @@ If done correctly, you should see this on your screen.
 Clean up:
 
 - Delete the "setup" folder located in C:\inetpub\wwwroot\osTicket
-- Set the permissions back to read only for "ost-config.php" by going to properties, then the security tab, click on Advanced, select "Everyone" and click on edit and uncheck Full control, Modify and Write, then apply.
+- Set the permissions back to read only for "ost-config.php" file located in C:\inetpub\wwwroot\osTicket\include by going to properties, then the security tab, click on Advanced, select "Everyone" and click on edit and uncheck Full control, Modify and Write, then apply.
 
 Congratulations!!! 
 
 If done correctly you can now log in for Admins using this link 
 
-<a href="http://localhost/osTicket/scp/login.php">Admins</a>
-<a href="http://localhost/osTicket/">End Users</a>
+<a href="http://localhost/osTicket/scp/login.php">Admins</a><b/>
+<a href="http://localhost/osTicket/">End Users</a><b/>
 
 
